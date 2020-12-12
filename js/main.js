@@ -15,3 +15,13 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+function myNavFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav exo navbarr sticky") {
+    x.className += " navresponsive";
+  } 
+  else {
+    x.className = "topnav exo navbarr sticky";
+  }
+}
