@@ -377,6 +377,7 @@ ul.techstack li {
   margin-right: auto;
   width: 17%;
   height: auto;
+  margin-top: 5%;
 }
 
 @media only screen and (max-width: 600px) {
